@@ -1,9 +1,5 @@
 # THREAT HUNTING AND FORENSICS RESOURCES
 
-Type: Education
-
-![Untitled](Untitled.png)
-
 I put together this collection of forensics and threat hunting resources to help me along my journey towards attaining my Certified CyberDefender certification, and I hope to pass this on to whoever is on that path. This resource is a comprehensive compilation of tools and techniques, curated to address various aspects of digital forensics, from memory and disk analysis to network forensics and email security. It includes detailed guidelines on utilizing tools such as FTK Imager, Volatility, Wireshark, and many others, each specifically chosen for their purpose in forensic investigations. It contains the nuances of threat hunting, offering insights into detecting and analyzing persistent threats, lateral movement, and data exfiltration. This resource stands as a testament to the dedication and depth of knowledge required in the field of cyber forensics and that required to attain such a challenging certification, serving as an invaluable guide for both aspiring and seasoned professionals.
 
 Please feel free to duplicate this into your own space to further improve or modify. I am happy to continue to take suggestions to improve and modify along the way, just reach out to me and say hi!
@@ -204,7 +200,10 @@ To detect data exfiltration through DNS: **`agent.type: "packetbeat" and type: d
 **`event.category`**: process
 **`event.category`**: network
 **`event.category`**: (malware or intrusion_detection) |
-| **`event.type`** | It serves as a sub-categorization that, when combined with the "**`event.category`**" field, allows for filtering events to a specific level. | **`event.type`**: start**`event.typ**e`: creation**`event.typ**e`: access**`event.typ**e`: deletion |
+| **`event.type`** | It serves as a sub-categorization that, when combined with the "**`event.category`**" field, allows for filtering events to a specific level. | **`event.type`**: start
+**`event.typ**e`: creation
+**`event.typ**e`: access
+**`event.typ**e`: deletion |
 | **`event.outcome`** | It indicates whether the event represents a successful or a failed outcome. | **`event.outcome`**: succes
 **`event.outcom**e`: failure |
 
