@@ -1,4 +1,4 @@
-# THREAT-HUNTING-AND-FORENSICS-RESOURCES
+# Threat Hunting and Forensics Resources
 I put together this collection of forensics and threat hunting resources to help me along my journey towards attaining my Certified CyberDefender certification, and I hope to pass this on to whoever is on that path. This resource is a comprehensive compilation of tools and techniques, curated to address various aspects of digital forensics, from memory and disk analysis to network forensics and email security. It includes detailed guidelines on utilizing tools such as FTK Imager, Volatility, Wireshark, and many others, each specifically chosen for their purpose in forensic investigations. It contains the nuances of threat hunting, offering insights into detecting and analyzing persistent threats, lateral movement, and data exfiltration. 
 
 This resource stands as a testament to the dedication and depth of knowledge required in the field of cyber forensics.
